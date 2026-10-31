@@ -99,12 +99,12 @@ theme_bond <- theme_minimal(base_size = 12) +
 # the column names come from row 3.
 # The data arrive "wide" (one column per bond). pivot_longer() turns them
 # "long": one row per date and bond, which is the shape ggplot2 needs.
-prices_long <- read_excel(file.path(data_dir, "MyBondPrices.xlsx"), skip = 2) |>
+prices_long <- read_excel(file.path(data_dir, "bondprice_data.xlsx"), skip = 2) |>
   mutate(date = as.Date(Date)) |>
   select(-Date) |>
   pivot_longer(-date, names_to = "header", values_to = "price")
 
-yields_long <- read_excel(file.path(data_dir, "MyBondYields.xlsx"), skip = 2) |>
+yields_long <- read_excel(file.path(data_dir, "bondyield_data.xlsx"), skip = 2) |>
   mutate(date = as.Date(Date)) |>
   select(-Date) |>
   pivot_longer(-date, names_to = "header", values_to = "ytm")
