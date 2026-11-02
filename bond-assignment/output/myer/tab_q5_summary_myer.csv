@@ -1,0 +1,6 @@
+Company,CUSIP,Coupon (%),Maturity,Years to maturity,Price (% face),Price ($),YTM (%)
+ExxonMobil,30231GBN1,2.61,15 Oct 2030,4.12,92.157,921.57,4.7219
+Chevron,166756BE5,4.819,15 Apr 2032,5.62,99.562,995.62,4.9049
+Lockheed Martin,539830BW8,5.25,15 Jan 2033,6.38,101.815,1018.15,4.9052
+General Dynamics,369550BP2,2.25,01 Jun 2031,4.75,88.836,888.36,4.907
+RTX,75513EAD3,2.25,01 Jul 2030,3.83,90.78,907.8,4.9133

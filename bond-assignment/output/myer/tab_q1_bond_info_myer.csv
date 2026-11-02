@@ -1,0 +1,6 @@
+Company,Sector,Issuer,CUSIP,Coupon (%),Coupon per period ($),Issue date,Maturity,Face value ($),Frequency,S&P rating
+RTX,Defense,RTX Corporation,75513EAD3,2.25,11.25,18 May 2020,01 Jul 2030,1000,Semi-annual,BBB+
+ExxonMobil,Energy,ExxonMobil Gas & Power Marketing Co.,30231GBN1,2.61,13.049999999999999,15 Apr 2020,15 Oct 2030,1000,Semi-annual,AA-
+General Dynamics,Defense,General Dynamics Corporation,369550BP2,2.25,11.25,May 2021,01 Jun 2031,1000,Semi-annual,fill in
+Chevron,Energy,Chevron U.S.A. Inc.,166756BE5,4.819,24.095,Feb 2025,15 Apr 2032,1000,Semi-annual,fill in
+Lockheed Martin,Defense,Lockheed Martin Corporation,539830BW8,5.25,26.25,24 Oct 2022,15 Jan 2033,1000,Semi-annual,fill in
